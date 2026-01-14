@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html modo-light-dark lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aplicações Práticas</title>
+  <link rel="stylesheet" href="naPratica.css">
+</head>
+<body>
+  <header>  <!--Cabeçalho-->
+    <h1>A MATEMÁTICA NA MÚSICA</h1>
+    <p>“A música é um exercício oculto de aritmética de uma alma inconsciente que lida com os números” - Leibniz</p>
+  </header>
+  <section id="conteudo">
+    <aside>  <!--Barra Lateral-->
+      <select id="selecionarModo">
+        <option value="light">Light</option>
+        <option value="dark">Dark</option>
+      </select>
+      <nav>
+        <ul>
+          <li><a href="index.html">Introdução</a></li>
+          <li>Na Prática</li>
+        </ul>
+      </nav>
+      <article id="referencias_bibliograficas">
+        <h3>Referências Bibliográficas:</h3>
+        <ul>
+          <li><a href="https://www.descomplicandoamusica.com/matematica-na-musica/" target="_blank">Descomplica</a><li>
+          <li><a href="https://www.sabra.org.br/site/matematica-e-musica/" target="_blank">MatMusica</a></li>
+          <li><a href="https://escolasuzuki.com.br/voce-conhece-a-relacao-entre-musica-e-matematica-descubra-as-suas-5-caracteristicas-em-comum/" target="_blank">EscolaSuzuki</a></li>
+        </ul>
+      </article>
+      <article id="links_importantes">
+        <h3>Outros Links Importantes:</h3>
+        <ul>
+          <li><a href="https://periodicos.unb.br/index.php/linhascriticas/article/download/2832/2539/4954">Artigo da Universidade de Brasília</a></li>
+          <li><a href="https://www.ensaiospedagogicos.ufscar.br/index.php/ENP/article/download/345/329/985">Artigo da Univerdade Federal de São Carlos</a></li>
+        </ul>
+      </article>
+    </aside>
+    <main>  <!--Conteúdo Principal-->
+      <h2>Hall da Harmonia</h2>
+      <section clas="secao_videos">  <!--Vídeos-->
+        <p>Confira vídeos que mostram a conexão entre a matemática e a música:</p>
+        <section class="ajeitar_videos">
+          <article>
+            <h3>Encoding the Fibonacci Sequence Into Music</h3>
+            <iframe width="520" height="315" src="https://www.youtube.com/embed/IGJeGOw8TzQ?si=MFExTNEATtFljbb8" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+          </article>
+          <article>
+            <h3>A Escala Pitagórica</h3>
+            <iframe width="520" height="315" src="https://www.youtube.com/embed/kkMjMQQV-_U?si=2Nsk8sn5v65BEzzb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          </article>
+          <article>
+            <h3>Piano Piece Based on the Fibonacci Sequence - Peter Bence</h3>
+            <iframe width="520" height="315" src="https://www.youtube.com/embed/oXW-LeQsTy8?si=LTVG4X_rXQpypkdw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          </article>
+          <article>
+            <h3>O que é a sequência de Fibonacci e por que é chamada de "código secreto da natureza"</h3>
+            <iframe width="520" height="315" src="https://www.youtube.com/embed/cHZWZhHQq4g?si=sYbaHEywJMzWnetN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          </article>
+        </section>
+      </section>
+      <section id="tabela">  <!--Tabela-->
+        <h2>Relação de Tons e Semitons</h2>
+        <p>Tabela mostrando a relação de tons e semitons entre notas musicais naturais:</p>
+        <table>
+          <thead>
+            <tr>
+              <th>Nota Inicial</th>
+              <th>Nota Final</th>
+              <th>Intervalo</th>
+              <th>Frequência Relativa</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Dó (C)</td>
+              <td>Ré (D)</td>
+              <td>1 tom</td>
+              <td>9/8</td>
+            </tr>
+            <tr>
+              <td>Ré (D)</td>
+              <td>Mi (E)</td>
+              <td>1 tom</td>
+              <td>9/8</td>
+            </tr>
+            <tr>
+              <td>Mi (E)</td>
+              <td>Fá (F)</td>
+              <td>1 semitom</td>
+              <td>16/15</td>
+            </tr>
+            <tr>
+              <td>Fá (F)</td>
+              <td>Sol (G)</td>
+              <td>1 tom</td>
+              <td>9/8</td>
+            </tr>
+            <tr>
+              <td>Sol (G)</td>
+              <td>Lá (A)</td>
+              <td>1 tom</td>
+              <td>9/8</td>
+            </tr>
+            <tr>
+              <td>Lá (A)</td>
+              <td>Si (B)</td>
+              <td>1 tom</td>
+              <td>9/8</td>
+            </tr>
+            <tr>
+              <td>Si (B)</td>
+              <td>Dó (C)</td>
+              <td>1 semitom</td>
+              <td>16/15</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <section>
+        <h2>Reproduzir Notas</h2>
+        <button onclick="tocarNotaMusical('la')">Lá (A)</button>
+        <button onclick="tocarNotaMusical('do')">Dó (C)</button>
+        <button onclick="tocarNotaMusical('re')">Ré (D)</button>
+      </section>
+    </main>
+  </section>  
+  <footer>  <!-- Rodapé -->
+    <p>A Matemática na Música © 2024</p>
+    <p>Feito por Marcos Souza. FAETERJ-RIO</p>
+  </footer>
+  <script src="naPratica.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

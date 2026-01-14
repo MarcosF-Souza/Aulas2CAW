@@ -1,0 +1,17 @@
+Questão 1:
+A linguagem de marcação chamada HTML serve para montar o que terá de escrito na página, o que aparecerá no corpo da página; já o CSS, uma linguagem de estilização, serve para deixar a página mais bonita visualmente, organizando os textos e colocando ícones, e mudando as cores. E o JavaScript, que é uma linguagem de programação, deixa o site mais "movimentado", cria uma dinamicidade para ele, não deixando ele só com um visual bonito, porém dinâmico.
+
+Questão 2: 
+2.1:
+Erro 1: A tag <style> que está dentro da tag <head> está sem o seu fechamento, o </style>.
+Erro 2: As tags de título <h1>, <h3> e <h6> não fecham, faltando o </h1>, </h3> e o </h6>.
+Erro 3: No final aparece a tag <article>, porém não possue uma tag semântica como o <p> para colocar dentro do <article>, não sendo uma boa prática.
+
+2.2:
+A parte da tag <body> pois possue alguns estilos, no qual tudo que está presente na página terá os estilos apresentados no <body>
+
+2.3: 
+(BOX MODEL....)
+
+Questão 3:
+Conflito em CSS é quando uma tag que é considerada "pai" possue certas estilizações e uma tag "filho" possue uma ou mais que sejam iguais aos do pai, no caso a propriedade seja igual.
